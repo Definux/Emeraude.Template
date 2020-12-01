@@ -18,8 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Definux.Emeraude.Domain" Version="1.1.0.42" />
-    <PackageReference Include="Definux.Emeraude.Admin" Version="1.1.0.42" />
+    <PackageReference Include="Definux.Emeraude.Domain" Version="1.1.0.45" />
+    <PackageReference Include="Definux.Emeraude.Admin" Version="1.1.0.45" />
   </ItemGroup>
 
 </Project>

@@ -22,7 +22,7 @@ namespace Emeraude.Template
 
                 options.DatabaseContextProvider = DatabaseContextProvider.PostgreSql;
                 options.MigrationsAssembly = "Emeraude.Template.Infrastructure";
-                options.ExecuteMigrations = false;
+                options.ExecuteMigrations = true;
 
                 options.Mapping.AddProfile<MainAssemblyMappingProfile>();
                 options.AddAssembly("Emeraude.Template");

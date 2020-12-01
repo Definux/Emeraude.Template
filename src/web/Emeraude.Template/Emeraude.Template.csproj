@@ -10,12 +10,12 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Definux.Emeraude.Admin.ClientBuilder.Modules.Vue" Version="1.1.0.42" />
-    <PackageReference Include="Definux.Emeraude.Admin" Version="1.1.0.42" />
-    <PackageReference Include="Definux.Emeraude.Client.EmPages" Version="1.1.0.42" />
-    <PackageReference Include="Definux.Emeraude.Client" Version="1.1.0.42" />
-    <PackageReference Include="Definux.Emeraude.Localization" Version="1.1.0.42" />
-    <PackageReference Include="Definux.Emeraude" Version="1.1.0.42" />
+    <PackageReference Include="Definux.Emeraude.Admin.ClientBuilder.Modules.Vue" Version="1.1.0.45" />
+    <PackageReference Include="Definux.Emeraude.Admin" Version="1.1.0.45" />
+    <PackageReference Include="Definux.Emeraude.Client.EmPages" Version="1.1.0.45" />
+    <PackageReference Include="Definux.Emeraude.Client" Version="1.1.0.45" />
+    <PackageReference Include="Definux.Emeraude.Localization" Version="1.1.0.45" />
+    <PackageReference Include="Definux.Emeraude" Version="1.1.0.45" />
   </ItemGroup>
 
   <ItemGroup>
@@ -32,9 +32,7 @@
   <ItemGroup>
     <Folder Include="privateroot\uploads\temp\" />
     <Folder Include="wwwroot\assets\css\" />
-    <Folder Include="wwwroot\assets\images\" />
     <Folder Include="wwwroot\dist\" />
-    <Folder Include="wwwroot\uploads\images\" />
   </ItemGroup>
 
 </Project>
