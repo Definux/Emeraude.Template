@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Emeraude.Template.Application\Emeraude.Template.Application.csproj" />
+    <ProjectReference Include="..\Emeraude.Template.Domain\Emeraude.Template.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Definux.Emeraude.Application" Version="1.1.0.42" />
+    <PackageReference Include="Definux.Emeraude.Domain" Version="1.1.0.42" />
+    <PackageReference Include="Definux.Emeraude.Identity" Version="1.1.0.42" />
+    <PackageReference Include="Definux.Emeraude.Persistence" Version="1.1.0.42" />
+  </ItemGroup>
+
+</Project>
+

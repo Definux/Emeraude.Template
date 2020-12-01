@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Common\**" />
+    <Compile Remove="Extensions\**" />
+    <EmbeddedResource Remove="Common\**" />
+    <EmbeddedResource Remove="Extensions\**" />
+    <None Remove="Common\**" />
+    <None Remove="Extensions\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Emeraude.Template.Domain\Emeraude.Template.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Definux.Emeraude.Domain" Version="1.1.0.42" />
+    <PackageReference Include="Definux.Emeraude.Admin" Version="1.1.0.42" />
+  </ItemGroup>
+
+</Project>
